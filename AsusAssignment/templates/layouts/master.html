@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Wallet - Payday Loan Service Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="This is meta description">
+	<meta name="author" content="VinnCoder">
+	<link rel="shortcut icon" href="{% static 'app/images/favicon.png' %}" type="image/x-icon">
+	<link rel="icon" href="{% static 'app/images/favicon.png' %}" type="image/x-icon">
+
+	<!-- # Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- # CSS Plugins -->
+	<link rel="stylesheet" href="{% static 'app/plugins/slick/slick.css' %}">
+	<link rel="stylesheet" href="{% static 'app/plugins/font-awesome/fontawesome.min.css' %}">
+	<link rel="stylesheet" href="{% static 'app/plugins/font-awesome/brands.css' %}">
+	<link rel="stylesheet" href="{% static 'app/plugins/font-awesome/solid.css' %}">
+
+	<!-- # Main Style Sheet -->
+	<link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+</head>
+
+<body>
+{% include 'partials/header.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+{% include 'partials/footer.html' %}
+
+<!-- # JS Plugins -->
+<script src="{% static 'app/plugins/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'app/plugins/bootstrap/bootstrap.min.js' %}"></script>
+<script src="{% static 'app/plugins/slick/slick.min.js' %}"></script>
+<script src="{% static 'app/plugins/scrollmenu/scrollmenu.min.js' %}"></script>
+
+<!-- Main Script -->
+<script src="{% static 'app/js/script.js' %}"></script>
+
+</body>
+</html>
